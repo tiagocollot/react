@@ -24,7 +24,7 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <h2 style={{ textAlign: "center", fontSize: 30 }}>Expenses Counter</h2>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
@@ -46,7 +46,7 @@ function App() {
         date={expenses[3].date}
       />
 
-      <p>This is also visible</p>
+      <p style={{ textAlign: "center", fontWeight: "bold", fontSize:30 }}>Give it a good use!</p>
     </div>
   );
 }
