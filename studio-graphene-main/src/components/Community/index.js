@@ -28,11 +28,13 @@ const menuContentStyle = {
 const menuTitleStyle = {
   color: colors.charcoal,
   fontSize: 50,
+
 }
 
 const topRowStyle = {
   display: "flex",
   flexDirection: "row",
+  marginRight: 528,
 }
 
 const knowMoreStyles = {
@@ -60,11 +62,15 @@ const loremStyles = {
   color: colors.charcoal,
 }
 
+const containerTopRowStyle = {
+  marginLeft: 1000,
+}
+
 const Community = () => {
   return (
     <div style={containerStyles} id="community">
       <div style={topRowStyle}>
-        <div style={{ marginRight: 30 }}>
+        <div style={{ marginRight: 30, marginTop: 650 }}>
           <h2 style={menuTitleStyle}>MEET OUR</h2>
           <h2 style={menuTitleStyle}>COMMUNITY</h2>
 
@@ -77,22 +83,20 @@ const Community = () => {
             TORNA ENTALTO
           </h4>
         </div>
-
-        <ImageCard />
-        <SocialMediaCard />
       </div>
+        <div style={containerTopRowStyle}>
+          <div style={topRowStyle}>
+            <ImageCard />
+            <SocialMediaCard />
+          </div>
 
-      <div style={topRowStyle}>
-        <ImageCard />
-        <SocialMediaCard />
-      </div>
-
-      <div style={topRowStyle}>
-        <ImageCard />
-        <SocialMediaCard />
+          <div style={topRowStyle}>
+            <ImageCard />
+            <SocialMediaCard />
+          </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Community

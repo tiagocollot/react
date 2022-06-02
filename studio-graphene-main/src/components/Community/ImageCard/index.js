@@ -33,4 +33,4 @@ const ImageCard = ({ imageUrl }) => {
   )
 }
 
-export default ImageCard
+export default ImageCard;
