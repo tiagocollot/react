@@ -70,7 +70,7 @@ const Community = () => {
   return (
     <div style={containerStyles} id="community">
       <div style={topRowStyle}>
-        <div style={{ marginRight: 30, marginTop: 650 }}>
+        <div style={{ marginRight: 30 }}>
           <h2 style={menuTitleStyle}>MEET OUR</h2>
           <h2 style={menuTitleStyle}>COMMUNITY</h2>
 
@@ -84,7 +84,7 @@ const Community = () => {
           </h4>
         </div>
       </div>
-        <div style={containerTopRowStyle}>
+        {/* <div style={containerTopRowStyle}>
           <div style={topRowStyle}>
             <ImageCard />
             <SocialMediaCard />
@@ -94,7 +94,7 @@ const Community = () => {
             <ImageCard />
             <SocialMediaCard />
           </div>
-      </div>
+      </div> */}
     </div>
   );
 }
