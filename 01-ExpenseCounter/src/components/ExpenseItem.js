@@ -64,6 +64,7 @@
 
 //! Step 5  Cut and move the const month, day, year to ExpenseDate.js
 //! and respective DIV
+import React from "react";
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 import Card from './Card';
