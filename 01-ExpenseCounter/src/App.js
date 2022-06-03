@@ -30,6 +30,7 @@ function App() {
   //   React.createElement('h2', {}, "Expenses Counter"),
   //   React.createElement(Expenses, {items: expenses})
   // );
+
   return (
     <div>
       <h2 style={{ textAlign: "center", fontSize: 30 }}>Expenses Counter</h2>
